@@ -64,7 +64,7 @@ export function VisibilityPage() {
             <InfoTip text="A deterministic, simulated audit of your storefront data. It measures how complete and descriptive your information is — not a live ranking from any assistant." />
           </div>
           <p className="text-[13px] text-muted">{loc.label} storefront</p>
-          <div className="mt-4 flex flex-col items-center gap-5 sm:flex-row sm:items-center">
+          <div className="mt-4 flex flex-col items-center gap-5 sm:flex-row lg:flex-col xl:flex-row">
             <ScoreRing score={score} />
             <div className="min-w-0 flex-1 text-[13px] text-gray-600">
               {score < 85 ? (
